@@ -24,7 +24,7 @@
 
   var GREETING =
     "こんにちは！キープオンショップのAIアシスタントです。\n" +
-    "『発表会で使う赤い衣装』のように、用途や色で話しかけてください🎈";
+    "『サテン素材のハッピ』のように、話すように入力してみてください🎈";
 
   // ---------- スタイル注入 ----------
   var style = document.createElement("style");
@@ -102,7 +102,7 @@
     '<div class="kpw-footer">' +
     '<textarea class="kpw-input" rows="1" maxlength="' +
     MAX_MESSAGE_LENGTH +
-    '" placeholder="例）発表会で使う赤い衣装"></textarea>' +
+    '" placeholder="例）サテン素材のハッピ"></textarea>' +
     '<button class="kpw-send" type="button" aria-label="送信">' +
     '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 12L20 4L13 20L11 13L4 12Z" fill="#fff"/></svg>' +
     "</button>" +
